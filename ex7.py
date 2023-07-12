@@ -25,7 +25,7 @@ for i in range(n):
         count+=1
     else:
        if max_count<count:
-           max_count=count
+            max_count=count
         count=0
 print(f'Резултат{max_count}')
     
