@@ -31,4 +31,4 @@ for i in text:
         text1[i] += 1
 print(f'{i}_{text1[i]}', end=" ")
     else: print(i, end=' ')
-    text1[i] = 0
+    text1[i]=0

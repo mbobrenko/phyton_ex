@@ -82,21 +82,27 @@
 ##import modul1 as m1
 # print(m1.max1(5,9))
 
-list_1 = ["H", "e", "l", "l", "o"]
-print(' '.join(list_1))
-## H e l l o
+# list_1 = ["H", "e", "l", "l", "o"]
+# print(' '.join(list_1))
+# ## H e l l o
 
-stroka = 'Hello world Moscow Name'
-print(stroka.split("o")) 
-#Hell, w, rldM, scw,  Name
+# stroka = 'Hello world Moscow Name'
+# print(stroka.split("o")) 
+# #Hell, w, rldM, scw,  Name
 
-stroka = 'Hello world Moscow Name'
-print(len(stroka.split(" ")))
-#4 (слова)
+# stroka = 'Hello world Moscow Name'
+# print(len(stroka.split(" ")))
+# #4 (слова)
 
-stroka = 'Hello world Moscow Name'
-list_1 = []
-for i in stroka:
-list_1.append(i)
-print(list_1)
-# разделение по символам
+# stroka = 'Hello world Moscow Name'
+# list_1 = []
+# for i in stroka:
+# list_1.append(i)
+# print(list_1)
+# # разделение по символам
+
+
+# проход по значениям 
+
+# for keys, value in dict1.items():
+# print(keys, value)
