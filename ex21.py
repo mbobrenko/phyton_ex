@@ -2,7 +2,7 @@
 # Вводится список чисел. Все числа списка находятся на разных строках.
 import random
 size=int(input('Enter size of the list'))
-my_list = [random.randint(0,10) for_ in range(size)]
+my_list =[random.randint(0,10) For i in range(size)]
 print(my_list)
 count=0 
 i=0
